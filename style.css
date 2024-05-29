@@ -170,4 +170,27 @@ a:hover{
     color: darkgreen;
     text-decoration: underline;
 }
+    
+}
+@media (max-width:450px){
+    
+    .container
+    {
+        background-color: cornsilk;
+        width: 380px;
+        height: 450px;
+        border-radius: 20px;
+    }
+    input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 50px;
+        margin-left: 3px;
+        margin-top: 70px;
+        border-radius: 10px white solid;
+       
+    
+    }
 }
